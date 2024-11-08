@@ -34,10 +34,10 @@ plt.xlabel('Horas estudadas')
 plt.ylabel('Notas Obtidas')
 plt.title('Exemplo de OLS: horas estudadas por alunos vs notas obtidas')
 plt.legend()
+plt.savefig("docs/gráficoquestao1.png")
 plt.show()
 
 
-#print(model.summary())
 
 
 #OLS é uma técnica de regressão linear para encontrar relação entre variáveis numéricas através de uma reta.
